@@ -1,0 +1,73 @@
+#This is the beginning of the file
+CONFIRMED, we create a first new user:mike
+CONFIRMED, we create the first new document with Object_Oriented_Programming which is created by mike
+CONFIRMED, we create a new document with Operating_System which is created by mike
+NOT FOUND! The user ali is not exist in the system now
+CONFIRMED we append the OO programming is awesome. Successfully
+NOT FOUND,both user:ali and document:Graph_Theory are not in the system
+No further processing occurs in this case---
+CONFIRMED we append the I love OO programing. Successfully
+#Pointers are really important in object oriented programing
+CONFIRMED we append the everyone likes pointers in Cpp Successfully
+NOT FOUND! There is no document called Graph_Theory
+NOT FOUND, we can't find Graph_Theory in our system
+No further processing occurs in this case---
+FAIL! There is no line:5 in Object_Oriented_Programming
+CONFIRMED, we create a new user:ali
+CONFIRMED, we create a new document with Graph_Theory which is created by ali
+NOT FOUND,both user:john and document:Human_Computer_Interaction are not in the system
+No further processing occurs in this case---
+DUPLICATE, we found mike is DUPLICATE
+NOT FOUND! The user john is not exist in the system now
+NOT FOUND, we can't find Human_Computer_Interaction in our system
+No further processing occurs in this case---
+SUCCESS! We replace with the new content:Pointers are useful in Cpp  for documentObject_Oriented_Programming
+SUCCESS! We replace with the new content:I love graph theory  for documentGraph_Theory
+CONFIRMED we append the    graph theory is an interesting course Successfully
+NOT FOUND,john is not be created
+No further processing occurs in this case---
+NOT FOUND! There is no document called Automata_Theory
+DUPLICATE Object_Oriented_Programming is already been created
+#user id = John
+CONFIRMED, we create a new user:john
+NOT FOUND, we can't find Java_Programming_language in our system
+No further processing occurs in this case---
+
+Print document:Graph_Theory
+4    graph theory is an interesting course
+3 everyone likes pointers in Cpp
+2 Pointers are useful in Cpp
+1 I love graph theory
+DUPLICATE Graph_Theory is already been created
+NOT FOUND, we can't find Java_Programming_language in our system
+No further processing occurs in this case---
+SUCCESS! We delete with the line:1 for document Graph_Theory
+FAIL! There is no line:0 in Graph_Theory
+FAIL! There is no line:0 in Graph_Theory
+NOT FOUND! There is no document called Automata_Theory
+
+Print document:Object_Oriented_Programming
+3    graph theory is an interesting course
+2 everyone likes pointers in Cpp
+1 Pointers are useful in Cpp
+NOT FOUND! There is no document called Human_Computer_Interaction
+
+Print document:Graph_Theory
+3    graph theory is an interesting course
+2 everyone likes pointers in Cpp
+1 Pointers are useful in Cpp
+
+Print document:Operating_System
+3    graph theory is an interesting course
+2 everyone likes pointers in Cpp
+1 Pointers are useful in Cpp
+CONFIRMED, we create a new document with Discrete_Math which is created by mike
+CONFIRMED we append the    Discrete math is the study of math that is discreet Successfully
+#fix typo
+NOT FOUND,michael is not be created
+No further processing occurs in this case---
+SUCCESS! We replace with the new content:   Discrete math is the study of math that is discrete  for documentDiscrete_Math
+#end of file
+BYE
+
+End of processing.
